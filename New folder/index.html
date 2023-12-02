@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #container{
+            margin-top: 100px;
+            border: 1px solid red;
+            width: 300px;
+            height: 500px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        #img-c{
+            animation-name: scroll;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+        }
+        #container::-webkit-scrollbar{
+            display: none;
+        }
+        @keyframes scroll {
+            0% {
+        transform: translatey(0%);
+    }
+    100% {
+        transform: translatey(calc(-100% - 10px));
+    }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="img-c">
+                <img src="Group 1.png" width="200">
+                <img src="Group 2.png" width="200">
+                <img src="Group 3.png" width="200">
+                <img src="Group 4.png" width="200">
+                <img src="Group 5.png" width="200">
+                <img src="Group 1.png" width="200">
+                <img src="Group 2.png" width="200">
+                <img src="Group 3.png" width="200">
+                <img src="Group 4.png" width="200">
+                <img src="Group 5.png" width="200">
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
