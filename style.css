@@ -899,6 +899,7 @@ transform: translatey(calc(-100% - 10px));
 #page-13{
     margin-top: 70px;
     width: 100%;
+    margin-bottom: 20px;
 }
 #page-13 h1{
     font-family: M;
