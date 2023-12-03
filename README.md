@@ -2,7 +2,7 @@
 <br>
 The website live at 
 <br>
-https://award-forces-parth.netlify.app
+https://award-forces-cloned.netlify.app
 <br>
 The original website link
 <br>
